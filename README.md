@@ -48,7 +48,8 @@ Copy code
     "image": "https://example.com/image.jpg"
   }
 }
-Edit Image
+
+### Edit Image
 URL: /edit
 Method: POST
 Request Body:
