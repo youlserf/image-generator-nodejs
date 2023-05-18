@@ -39,15 +39,17 @@ The API will start running on port 3000.
 {
  "prompt": "Generate an image of a cat",
  "key": "your_openai_api_key"
-}
+}```
+
 Example Response:
-json
+```json
 Copy code
 {
   "data": {
     "image": "https://example.com/image.jpg"
   }
 }
+```
 
 ### Edit Image
 URL: /edit
@@ -57,18 +59,19 @@ image: The URL of the image to be edited.
 prompt: The prompt used to edit the image.
 key: Your OpenAI API key.
 Example Request Body:
-json
+```json
 Copy code
 {
   "image": "https://example.com/image.jpg",
   "prompt": "Add sunglasses to the image",
   "key": "your_openai_api_key"
-}
+}```
 Example Response:
-json
+```json
 Copy code
 {
   "data": {
     "image": "https://example.com/edited_image.jpg"
   }
 }
+```
